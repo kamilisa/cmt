@@ -14,6 +14,7 @@
 #include <algorithm>
 #include <queue>
 #include "ConvexLS.h"
+#include <iostream>
 
 #ifndef DEM_BONES_MAT_BLOCKS
 #include "MatBlocks.h"
