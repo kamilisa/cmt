@@ -105,7 +105,7 @@ public:
 		bind.resize(0, 0);
 		preMulInv.resize(0, 0);
 		rotOrder.resize(0, 0);
-		DemBones::clear();
+        DemBones<_Scalar, _AniMeshScalar>::clear(); 
 	}
 
 	/** @brief Local rotations, translations and global bind matrices of a subject
